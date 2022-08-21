@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <script></script>
+    <title>Felig Stemmer</title>
+  </head>
+  <body>
+    <div class="container">
+      <!--  HEADER  -->
+      <header class="text-center text-light my-4">
+        <h1 class="mb-4">Felig Stemmer</h1>
+        <form class="search">
+          <input
+            type="text"
+            class="form-control m-auto"
+            name="search"
+            placeholder="search stems"
+          />
+        </form>
+      </header>
+
+      <!--  LIST  -->
+      <ul class="list-group todos mx-auto text-light">
+        <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          <span>ልጆች</span> --> <span>ልጅ</span>
+          <i class="far fa-trash-alt delete"></i>
+        </li>
+
+        <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          <span>ወንበሮቻቸው</span> --> <span>ወንብኧር</span>
+          <i class="far fa-trash-alt delete"></i>
+        </li>
+      </ul>
+
+      <!--  FORM  -->
+      <form class="add text-center my-4">
+        <label for="add" class="add text-light">Enter an Amharic Word:</label>
+        <input type="text" class="form-control m-auto" name="add" id="add" />
+      </form>
+    </div>
+  </body>
+</html>
