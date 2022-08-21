@@ -8,7 +8,7 @@ const handleAddItem = (inputValue) => {
 
   const html = `
    <li class="list-group-item d-flex justify-content-between align-items-center">
-      <span>${inputValue}</span> -> <span>${stemWord}</span>
+      <span>${inputValue}</span> --> <span>${stemWord}</span>
       <i class="far fa-trash-alt delete"></i>
     </li>
   `;
